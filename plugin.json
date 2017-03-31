@@ -1,0 +1,13 @@
+{
+  "url": "https://github.com/marcelo-lopes/nodebb-plugin-reproduce-redirection-issue",
+  "library": "./plugin/plugin.js",
+  "hooks": [
+    {
+      "hook": "static:app.load", "method": "appLoad"
+    },
+    {
+      "hook": "filter:category.get", "method": "redirectIfMissingBadge"
+    }
+  ],
+  "templates": "./public/templates"
+}

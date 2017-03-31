@@ -1,0 +1,16 @@
+{
+  "name": "nodebb-plugin-reproduce-redirection-issue",
+  "version": "0.1.0",
+  "description": "",
+  "author": {
+    "name": "marcelo-lopes",
+    "email": "schwanck@gmail.com"
+  },
+  "readme": "",
+  "nbbpm": {
+    "compatibility": "^1.4.3"
+  },
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
